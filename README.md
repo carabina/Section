@@ -1,7 +1,13 @@
 # Section
+
 It's help you very easy to build an extensible list.
 
-### Usage
+[![Version](https://img.shields.io/cocoapods/v/Section.svg?style=flat)](http://cocoapods.org/pods/Section)
+[![License](https://img.shields.io/cocoapods/l/Section.svg?style=flat)](http://cocoapods.org/pods/Section)
+[![Platform](https://img.shields.io/cocoapods/p/Section.svg?style=flat)](http://cocoapods.org/pods/Section)
+
+## Usage
+
 ```swift
 extension AwesomeViewController: Sectionable, UITableViewDelegate, UITableViewDataSource {
     var viewModels: [ViewModel] {
@@ -57,3 +63,25 @@ private class AwesomeCell: UITableViewCell, ViewType {
 }
 
 ```
+
+## Installation
+
+`Section` is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'Section'
+```
+
+## Author
+
+Lei Wang, r4ynum1@gmail.com
+
+## License
+
+`Section` is available under the MIT license. See the LICENSE file for more info.
+
+
+
+
+
